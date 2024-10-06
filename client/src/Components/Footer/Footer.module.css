@@ -1,0 +1,37 @@
+.footer{
+    width: 100%;
+    height: 50vh;
+    background-color: #3C66A8;
+    margin-top: 10vh;
+    display: flex;
+    color: white;
+}
+.Container{
+    height: auto;
+    width: 80%;
+    margin: 5rem auto 0px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Continer_last{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.icons{
+    display: flex;
+    font-size: 2.5rem;
+    margin: 20px 0px;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+}
+.icons > i:hover{
+    transition: 0.5s;
+    color: black;
+    cursor: pointer;
+}

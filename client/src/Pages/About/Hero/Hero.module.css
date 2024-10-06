@@ -1,0 +1,52 @@
+.hero{
+    background-image: url(../../../assets/Hero/Hero1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+    color: white;
+    
+}
+.hero >h1{
+
+    font-size: 4.3em;
+    color: rgb(73, 70, 70);
+    -webkit-text-stroke: 2px white;
+    text-shadow:  2px 2px  rgb(129, 119, 119);
+    font-weight: 600;
+}
+.hero>h5{
+    color: rgb(73, 70, 70);
+}
+
+
+.downAero{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50% ;
+    background-color: #265492;
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: 13rem;
+    justify-content: center;
+}
+.downAero>i{
+    font-size: 1.5rem;
+    animation: aero 1s infinite ease-in-out ;
+    position: relative;
+    transition: 1s;
+}
+
+@keyframes aero{
+    from{
+        top:5px;
+    }
+    to{
+       bottom: 10px;
+    }
+}

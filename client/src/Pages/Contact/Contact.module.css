@@ -1,0 +1,41 @@
+.form{
+    padding: 20px;
+    height: 60vh;
+    border: solid 3px rgb(186, 156, 156);
+    width: 40%;
+    color: rgb(151, 139, 139) ;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.735);
+    border-radius: 20px;
+    margin: 10vh auto ;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+.form>h1{
+    padding: 10px;
+    font-weight: 700;
+}
+.form>input{
+    padding: 10px;
+    border-radius: 35px;
+    transform: 1s;
+    border: none;
+    cursor: text;
+    outline: none;
+  
+}
+.form>input:hover{
+    box-shadow: 2px 2px 2px 2px  rgb(114, 106, 106);
+}
+.form>textarea{
+    height: 40%;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.button{
+    background-color: rgba(0, 0, 255, 0.861);
+    color: white;
+}
+

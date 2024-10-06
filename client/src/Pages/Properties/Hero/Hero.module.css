@@ -1,0 +1,87 @@
+.hero{
+    background-image: url(../../../assets/Hero/hero5.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+    color: white;
+    
+}
+.hero >h1{
+    font-size: 3.3em;
+    font-weight: 600;
+}
+
+
+.downAero{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50% ;
+    background-color: #265492;
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: 13rem;
+    justify-content: center;
+}
+.downAero>i{
+    font-size: 1.5rem;
+    animation: aero 1s infinite ease-in-out ;
+    position: relative;
+    transition: 1s;
+}
+
+@keyframes aero{
+    from{
+        top:5px;
+    }
+    to{
+       bottom: 10px;
+    }
+}
+
+
+.input_box{
+    background-color: white;
+    width: 40%;
+    height: 40px;  
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 4px 4px 5px 5px  rgba(0, 0, 0, 0.315);
+
+}
+.input_box>input{
+    border: none;
+    height: 100%;
+    width: 90%;
+    cursor: text;
+    outline: none;
+    margin-left: 10px;
+    color: rgb(136, 128, 128);
+    font-size: 1em;
+}
+.icon_input{
+   color: black;
+    font-size: 2em;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    height: 100%;
+    width: 3em;
+}
+.icon > i:hover{
+    cursor: pointer;
+    color: black;
+    
+}

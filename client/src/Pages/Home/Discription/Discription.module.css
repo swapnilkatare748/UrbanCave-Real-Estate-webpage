@@ -1,0 +1,33 @@
+.Discription{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    height: 70vh;    
+}
+.first{
+    width: 70%;
+    background-image: url('../../../assets/Offers img/big4.jpg');
+    background-size: cover;
+    border-radius: 10px;
+
+}
+.last{
+    background-color: white;
+    width: 90%;
+    padding: 20px;
+    height: 80%;
+    border-radius: 20px;
+    position: relative;
+    top: 30vh;
+    box-shadow: 2px 3px 3px 3px rgba(0, 0, 255, 0.77) ;
+    left: 25vw;
+}
+.last>h2{
+ padding: 20px;
+}
+.last>p{
+    padding: 20px;
+    text-align: justify;
+}

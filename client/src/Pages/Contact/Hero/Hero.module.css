@@ -1,0 +1,35 @@
+.hero{
+    background-image: url(../../../assets/Hero/Hero7.avif);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+    color: white;
+    
+}
+.content{
+    display: flex;
+    width: 60% ;
+    height: 30vh;
+    justify-content: space-around;
+}
+.content>div{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content>div>i{
+    font-size: 3rem;
+}
+.contact{
+    border-left: 2px solid white;
+    border-right:2px solid white ;
+}
+

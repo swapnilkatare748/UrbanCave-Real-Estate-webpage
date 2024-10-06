@@ -1,0 +1,21 @@
+.spans{
+    display: flex;
+    width: 15%;
+    height: 40px;
+    gap: 1rem;
+    margin: auto;
+}
+span{
+    height: 100%;
+    width: 30%;
+    border-radius: 50%;
+    border: solid 1px blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span:hover{
+    padding: 7px;
+    transition: 0.5s;
+    cursor: pointer;
+}

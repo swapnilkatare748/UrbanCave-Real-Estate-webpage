@@ -1,0 +1,40 @@
+.customers{
+    margin: auto;
+    width: 85%;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+.customers_child{
+    width: 20%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   padding: 10px;
+   align-items: center;
+   gap: 1.5rem;
+   justify-content: center;
+}
+.h3_Costomers{
+    text-align: center;
+    color: rgb(148, 129, 129);
+}
+.photo{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+}
+
+.photo>img{
+    right: 5rem;
+    position: relative;
+}
+.customers_child>h3>b{
+    font-weight: 600;
+    font-size: 1.3em;
+}

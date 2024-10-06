@@ -1,0 +1,46 @@
+.Agents{
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    margin: 25px auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Agents>div{
+    width: 20%;
+    border-radius: 10px;
+    height: 80%;
+    background-color: black;
+}
+.Agents>div>img{
+    width: 100%;
+    height: 100%;
+}
+/* .Agents>div>img:hover{
+  
+} */
+.img_info{
+    background-color: white;
+    height: 20%;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    bottom: 5vh;
+    border-radius: 0px  20px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px  black;
+}
+.img_info:hover{
+    transition: 1s;
+    padding: 20px;
+    font-size: small;
+    border-radius: 20px 0px;
+    box-shadow: 2px 2px 2px 2px  rgb(54, 34, 167);  
+}
+.img_info>h3{
+    padding: 5px;
+}
+.img_info>p{
+    padding: 5px;
+}

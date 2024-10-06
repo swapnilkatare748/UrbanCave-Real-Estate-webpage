@@ -1,0 +1,34 @@
+.Services{
+    width: 100%;
+    margin-top: 10vh;
+    color: rgb(89, 84, 84);;
+    
+}
+.Services>h1{
+    text-align: center;
+   
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.info_Services{
+    flex-wrap: wrap;
+    width: 20%;
+    margin: 5vh 0;
+    padding: 10px;
+    text-align: center;
+}
+.info_Services:hover{
+   
+     box-shadow: 5px 5px 5px 5px rgba(126, 121, 121, 0.377);
+     border-radius: 10px;
+     transition: 1s;
+     cursor: pointer;
+}
+
+.info_Services>img{
+    width: 50%;
+    color: blue;
+}
